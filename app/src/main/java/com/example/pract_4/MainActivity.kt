@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.provider.MediaStore
+import android.util.Log
 import android.widget.Button
 import com.example.pract_4.R
 
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         btn_ref_Camera = findViewById(R.id.btn_Camera)
         btn_ref_gallery = findViewById(R.id.btn_Gallery)
         btn_ref_contact = findViewById(R.id.btn_contact)
+        Log.i("Hello","Hello1")
         ImplicitIntent()
     }
 
